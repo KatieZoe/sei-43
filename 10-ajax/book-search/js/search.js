@@ -1,6 +1,6 @@
 const fetchCover = function (event) {
   event.preventDefault(); // Don't leave this page.
-  
+
   const title = document.getElementById('title').value;
 
   const xhr = new XMLHttpRequest();
